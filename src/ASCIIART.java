@@ -9,8 +9,7 @@ public class ASCIIART {
                 letraZ()
         };
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < alphabet.length; j++) {
-                char[][] letter = alphabet[j];
+            for (char[][] letter : alphabet) {
                 for (int k = 0; k < letter[i].length; k++) {
                     System.out.print(letter[i][k] + " ");
                 }
@@ -258,8 +257,7 @@ public class ASCIIART {
             {'X', ' ', ' ', ' ', 'X'},
     };
 }
-
-    public static char[][] letraY() {
+ public static char[][] letraY() {
         return new char[][]{
             {'Y', ' ', ' ', ' ', 'Y'},
             {' ', 'Y', ' ', 'Y', ' '},
