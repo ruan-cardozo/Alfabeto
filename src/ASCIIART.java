@@ -78,8 +78,6 @@ public class ASCIIART {
                 {'F', ' ', ' ', ' ', ' '},
                 {'F', ' ', ' ', ' ', ' '},};
     }
-}
-
     public static char[][] letraG() {
     return new char[][]{
                 {' ', 'G', 'G', 'G', ' '},
@@ -277,7 +275,7 @@ public class ASCIIART {
             {' ', ' ', ' ', ' ', 'Z'},
             {' ', ' ', ' ', 'Z', ' '},
             {' ', ' ', 'Z', ' ', ' '},
-            {' ', 'Z', 'Z', 'Z', 'Z'},
+            {'Z', 'Z', 'Z', 'Z', 'Z'},
         };
     }
 }
